@@ -1,11 +1,11 @@
 import React  from 'react';
-import NavigationBar from '../components/navigation_bar';
+import Header from '../components/Header';
 
 function MyPage() {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <Header />
             </div>
             mypage
         </div>

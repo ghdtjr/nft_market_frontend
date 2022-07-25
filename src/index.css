@@ -9,5 +9,6 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace, "Poppins-Bold" ;
+  src: local("Poppins-Bold"), url("../public/fonts/FontsFree-Net-Poppins-Bold.ttf") format("truetype");
 }

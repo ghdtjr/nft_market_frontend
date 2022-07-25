@@ -1,0 +1,32 @@
+.nav{
+}
+
+.nav_bar{
+    font-size:large;
+    font-weight: 600;
+    width: "100%";
+    font-family: "Poppins-bold";
+    color: black;
+
+    padding: 20px;
+    border-bottom: groove 1px;
+    height: 45px;
+    align-items: center;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link{
+    color:black;
+    display: none;
+}
+
+.search_box{
+    border-radius: 10px;
+    border-color: #a19e9e;
+    border-width: 1.4px;
+    width: 500px;
+    height: 45px;
+    font: inherit;
+}

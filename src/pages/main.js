@@ -1,10 +1,10 @@
 import React  from 'react';
-import NavigationBar from '../components/navigation_bar';
+import Header from '../components/Header';
 
 function Main() {
     return (
         <div>
-            <NavigationBar />
+            <Header />
             <div>
             main
             </div>
