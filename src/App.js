@@ -7,15 +7,15 @@ import MyPage from './pages/mypage'
 
 
 function App() {
-  return (
-    <div>
-    <Routes>
-      <Route path="/" exact={true} element={<Main />} />
-      <Route path="/create" element={<Create/>} />
-      <Route path="/mypage" element={<MyPage/>} />
-    </Routes>
-    </div>
-  )
+    return (
+        <div>
+            <Routes>
+                <Route path="/" exact={true} element={<Main />} />
+                <Route path="/create" element={<Create />} />
+                <Route path="/mypage" element={<MyPage />} />
+            </Routes>
+        </div>
+    )
 }
 
 export default App;
